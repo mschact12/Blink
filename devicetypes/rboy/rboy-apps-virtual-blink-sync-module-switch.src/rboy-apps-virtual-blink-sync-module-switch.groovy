@@ -79,5 +79,3 @@ def off() {
     log.info msg
 	sendEvent(name: "switch", value: "off", descriptionText: msg)
 }
-
-// THIS IS THE END OF THE FILE
